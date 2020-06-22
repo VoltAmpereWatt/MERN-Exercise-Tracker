@@ -17,11 +17,10 @@ const port = process.env.PORT || 5000;
 // cors middleware
 app.use(cors());
 //... other app.use middleware 
-app.use(express.static(path.join(__dirname, "..", "build")))
-
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "..", "build", "index.html"));
-});
+app.use(express.static(path.join(__dirname, '../build')))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build'))
+})
 
 // allows server to parse json since that's what this server will do
 app.use(express.json());
