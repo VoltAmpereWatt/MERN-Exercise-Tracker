@@ -24,7 +24,7 @@ export default class ExerciseList extends Component{
     // get list of exercises from database
     // runs before page is rendered
     componentDidMount(){
-        axios.get('http://localhost:5000/exercises/')
+        axios.get('/exercises/')
       .then(response => {
         this.setState({ exercises: response.data })
       })
@@ -34,7 +34,7 @@ export default class ExerciseList extends Component{
   }
     // id is the object id of the exercise that we'll be deleting
     deleteExercise(id){
-        axios.delete('http://localhost:5000/exercises/'+id)
+        axios.delete('/exercises/'+id)
             .then(res=> console.log(res.data));
         // remove the exercise from the exercise list
         this.setState({

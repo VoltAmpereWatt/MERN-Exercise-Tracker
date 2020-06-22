@@ -27,7 +27,7 @@ export default class EditExercise extends Component{
     // called right before anything is displayed. 
     componentDidMount(){
         // getting exercise id from urk
-        axios.get('http://localhost:5000/exercises/'+this.props.match.params.id)
+        axios.get('/exercises/'+this.props.match.params.id)
             .then(response =>{
                 this.setState({
                     username:response.data.username,
@@ -36,7 +36,7 @@ export default class EditExercise extends Component{
                     date:new Date(response.data.date)
                 })
             })
-      axios.get('http://localhost:5000/users/')
+      axios.get('/users/')
         .then(response=>{
           // at least one user
           if (response.data.length > 0){
@@ -81,7 +81,7 @@ export default class EditExercise extends Component{
         }
 
         console.log(exercise);
-      axios.post('http://localhost:5000/exercises/update'+this.props.match.params.id,exercise)
+      axios.post('/exercises/update'+this.props.match.params.id,exercise)
 				.then(res => console.log(res.data));
         // Take window back to list of Exercises 
         window.location = "/";

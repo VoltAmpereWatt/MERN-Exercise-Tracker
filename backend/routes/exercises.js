@@ -10,7 +10,7 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
-    // other fields also available
+  // other fields also available
 
   const username = req.body.username;
   const description = req.body.description;
@@ -25,8 +25,8 @@ router.route('/add').post((req, res) => {
   });
 
   newExercise.save()
-  .then(() => res.json('Exercise added!'))
-  .catch(err => res.status(400).json('Error: ' + err));
+    .then(() => res.json('Exercise added!'))
+    .catch(err => res.status(400).json('Error: ' + err));
 });
 
 router.route('/:id').get((req, res) => {

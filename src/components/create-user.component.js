@@ -26,7 +26,7 @@ export default class CreateUser extends Component{
 			}
 
 			console.log(user);
-			axios.post('http://localhost:5000/users/add',user)
+			axios.post('/users/add',user)
 				.then(res => console.log(res.data));
 			// to allow entering multiple users. instead of going back to main page, clear username.
 			this.setState({username:""});

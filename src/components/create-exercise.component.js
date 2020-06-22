@@ -26,7 +26,7 @@ export default class CreateExercise extends Component{
 
     // called right before anything is displayed. 
     componentDidMount(){
-      axios.get('http://localhost:5000/users/')
+      axios.get('/users/')
         .then(response=>{
           // at least one user
           if (response.data.length > 0){
@@ -68,7 +68,7 @@ export default class CreateExercise extends Component{
         }
 
         console.log(exercise);
-      axios.post('http://localhost:5000/exercises/add',exercise)
+      axios.post('/exercises/add',exercise)
 				.then(res => console.log(res.data));
         // Take window back to list of Exercises 
         window.location = "/";

@@ -7,6 +7,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 // To have environment variables in the .env file
 require('dotenv').config();
+const path = require("path")
 
 // Creating express server
 const app = express();
@@ -15,6 +16,13 @@ const port = process.env.PORT || 5000;
 
 // cors middleware
 app.use(cors());
+//... other app.use middleware 
+app.use(express.static(path.join(__dirname, "..", "build")))
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "build", "index.html"));
+});
+
 // allows server to parse json since that's what this server will do
 app.use(express.json());
 
