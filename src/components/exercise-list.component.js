@@ -7,7 +7,7 @@ const Exercise = props =>{
         <td>{props.exercise.username}</td>
         <td>{props.exercise.description}</td>
         <td>{props.exercise.duration}</td>
-        <td>{props.exercise.date.substring}</td>  
+        <td>{props.exercise.date.substring(0,9)}</td>    
         <td>
         {/* link to delete method available. calls deleteExercise function */}
         <Link to={"/edit/"+props.exercise._id}>edit</Link> | <a href="#" onClick={( ) => { props.deleteExercise(props.exercise._id) }}>delete</a>
