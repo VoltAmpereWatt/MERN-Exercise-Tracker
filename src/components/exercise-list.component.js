@@ -6,7 +6,7 @@ const Exercise = props =>{
     return (<tr>
         <td>{props.exercise.username}</td>
         <td>{props.exercise.description}</td>
-        <td>{props.exercise.duration}</td>
+        <td>{props.exercise.duration} min</td>
         <td>{props.exercise.date.substring(0,10)}</td>    
         <td>
         {/* link to delete method available. calls deleteExercise function */}
