@@ -1,0 +1,89 @@
+[33mcommit 972b2b3390930fc69d55d386b6811763902502a0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:55:05 2020 -0400
+
+    added a word
+
+[33mcommit ce1516883542f87aee85f36a527398e1c2f1c682[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:44:31 2020 -0400
+
+    added class to source code link
+
+[33mcommit add5537cbdf3fa4e0c823b5a62166be4f7e043d3[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:40:50 2020 -0400
+
+    added code link
+
+[33mcommit 7cb490e2a79a46658b1c51ee5de6d67697e281b9[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:33:00 2020 -0400
+
+    cba
+
+[33mcommit c9e9f70ea2d3d4b9b72fd5cb1cbf9d64b884a576[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:23:47 2020 -0400
+
+    cba
+
+[33mcommit 6ef80e5794dc36d4b4aa869d6cea85b6739a8f4e[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:21:50 2020 -0400
+
+    cba
+
+[33mcommit 77bbb07f6e175dad62ef1f1a6b7f347a46677fa1[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 02:20:43 2020 -0400
+
+    cba
+
+[33mcommit 28d2b0a0688fe69792c69b9305c9ad36a4bc6849[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Jun 22 00:53:01 2020 -0400
+
+    push to heroku
+
+[33mcommit 8e4aa87f07767c1773ad11121a7ba03a50fae039[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Apr 6 17:39:05 2020 -0400
+
+    updated readme
+
+[33mcommit d6b62d9a8e783903566312fa928a34a0006e828d[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Apr 6 17:38:03 2020 -0400
+
+    added screenshots
+
+[33mcommit 341dd20d4fd096be3ac603ee3bd13502f621b53e[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Apr 6 17:35:42 2020 -0400
+
+    updated readme
+
+[33mcommit e073d1bf985e27848fe83af4f9b4f4f2c3bfffc0[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Apr 6 17:11:45 2020 -0400
+
+    updated readme
+
+[33mcommit 8fac9a308952321c8f81af8bf128e0644914a640[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Mon Apr 6 17:01:45 2020 -0400
+
+    application finished
+
+[33mcommit cc6e25150810fceeb249b955a71e04aac9420d2d[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Sat Apr 4 23:37:37 2020 -0400
+
+    backend folder. express, cors, dotenv, etc. installed
+
+[33mcommit 08903fd45554f92473b7369d51bdcc588280d04e[m
+Author: Rahul <rrr392@nyu.edu>
+Date:   Sat Apr 4 23:24:56 2020 -0400
+
+    Initialize project using Create React App
